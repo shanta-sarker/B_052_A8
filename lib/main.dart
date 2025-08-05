@@ -44,8 +44,9 @@ class DigitalIDCard extends StatelessWidget {
               SizedBox(height: 20),
               CircleAvatar(
                 radius: 40,
-                backgroundColor: Colors.redAccent,
-                child: Icon(Icons.person, size: 50, color: Colors.white),
+                backgroundImage: NetworkImage(
+                  'https://cdn-icons-png.flaticon.com/512/6997/6997662.png',
+                ),
               ),
               SizedBox(height: 10),
               Text(
